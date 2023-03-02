@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LoginController;
 use App\Http\Controllers\LogoutController;
 use App\Http\Controllers\DashboardController;
 
@@ -32,10 +33,10 @@ Route::group(['namespace' => 'App\Http\Controllers'], function () {
     //     /**
     //      * Login Routes
     //      */
-    //     Route::get('/login', 'LoginController@show')->name('login.show');
-    //     Route::post('/login', 'LoginController@login')->name('login.perform');
     // });
 });
+Route::get('/login', [LoginController::class, 'show'])->name('login.show');
+Route::post('/login', [LoginController::class, 'login'])->name('login.perform');
 Route::group(['middleware' => ['auth']], function () {
     /**
      * Logout Routes

@@ -36,7 +36,7 @@
 
                     <form method="post" action="{{ route('login.perform') }}">
                         @csrf
-                        <h1>Login Form</h1>
+                        <h1>Login</h1>
                         <div>
                             <input type="text" class="form-control" name="username" value="{{ old('username') }}"
                                 placeholder="Email or Username" required="" autofocus />
@@ -63,7 +63,7 @@
                             <br />
 
                             <div>
-                                <h1><i class="fa fa-paw"></i> Serbaguna Besar!</h1>
+                                <h1>CV. Serbaguna Besar</h1>
                             </div>
                         </div>
                     </form>
