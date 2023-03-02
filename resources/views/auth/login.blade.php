@@ -1,35 +1,78 @@
-@extends('layouts.auth-master')
+<!DOCTYPE html>
+<html lang="en">
 
-@section('content')
-    <form method="post" action="{{ route('login.perform') }}">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <input type="hidden" name="_token" value="{{ csrf_token() }}" />
-        <img class="mb-4" src="{!! url('images/bootstrap-logo.svg') !!}" alt="" width="72" height="57">
+    <title>Gentelella Alela! |</title>
 
-        <h1 class="h3 fw-normal mb-3">Login</h1>
+    <!-- Bootstrap -->
+    <link href="../assets/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link href="../assets/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- NProgress -->
+    <link href="../assets/vendors/nprogress/nprogress.css" rel="stylesheet" />
+    <!-- Animate.css -->
+    <link href="../assets/vendors/animate.css/animate.min.css" rel="stylesheet" />
 
-        @include('layouts.partials.messages')
+    <!-- Custom Theme Style -->
+    <link href="../assets/build/css/custom.min.css" rel="stylesheet" />
+</head>
 
-        <div class="form-group form-floating mb-3">
-            <input type="text" class="form-control" name="username" value="{{ old('username') }}" placeholder="Username"
-                required="required" autofocus>
-            <label for="floatingName">Email or Username</label>
-            @if ($errors->has('username'))
-                <span class="text-danger text-left">{{ $errors->first('username') }}</span>
-            @endif
+<body class="login">
+    <div>
+        <a class="hiddenanchor" id="signup"></a>
+        <a class="hiddenanchor" id="signin"></a>
+
+        <div class="login_wrapper">
+            <div class="animate form login_form">
+                <section class="login_content">
+
+                    @include('layouts.partials.messages')
+
+                    <form method="post" action="{{ route('login.perform') }}">
+                        @csrf
+                        <h1>Login Form</h1>
+                        <div>
+                            <input type="text" class="form-control" name="username" value="{{ old('username') }}"
+                                placeholder="Email or Username" required="" autofocus />
+                            @if ($errors->has('username'))
+                                <span class="text-danger text-left">{{ $errors->first('username') }}</span>
+                            @endif
+                        </div>
+                        <div>
+                            <input type="password" class="form-control" name="password" value="{{ old('password') }}"
+                                placeholder="Password" required="" />
+                            @if ($errors->has('password'))
+                                <span class="text-danger text-left">{{ $errors->first('password') }}</span>
+                            @endif
+                        </div>
+                        <div>
+                            <button class="btn btn-default submit" type="submit" href="index.html">Log in</button>
+                        </div>
+
+                        <div class="clearfix"></div>
+
+                        <div class="separator">
+
+                            <div class="clearfix"></div>
+                            <br />
+
+                            <div>
+                                <h1><i class="fa fa-paw"></i> Serbaguna Besar!</h1>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+            </div>
+
         </div>
+    </div>
+    </div>
+</body>
 
-        <div class="form-group form-floating mb-3">
-            <input type="password" class="form-control" name="password" value="{{ old('password') }}" placeholder="Password"
-                required="required">
-            <label for="floatingPassword">Password</label>
-            @if ($errors->has('password'))
-                <span class="text-danger text-left">{{ $errors->first('password') }}</span>
-            @endif
-        </div>
-
-        <button class="w-100 btn btn-lg btn-primary" type="submit">Login</button>
-
-        @include('auth.copy')
-    </form>
-@endsection
+</html>
