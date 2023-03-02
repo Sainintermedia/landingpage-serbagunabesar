@@ -11,7 +11,7 @@
                     <li class="">
                         <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown"
                             aria-expanded="false">
-                            {{--  <img src="#" alt="">{{ dd(auth()->user()->name) }}  --}}
+                            <img src="https://picsum.photos/300/300" alt="">{{ auth()->user()->name }}
                             <span class="fa fa-angle-down"></span>
                         </a>
                         <ul class="dropdown-menu dropdown-usermenu pull-right">
