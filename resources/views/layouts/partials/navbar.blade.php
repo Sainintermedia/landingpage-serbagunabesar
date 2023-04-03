@@ -37,7 +37,7 @@
                   <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Download</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Logon</a>
+                    <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Login</a>
                     @auth
                     {{ auth()->user()->name }}
                     <div class="text-end">
