@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PostController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\LogoutController;
 use App\Http\Controllers\DashboardController;
@@ -15,7 +16,7 @@ use App\Http\Controllers\DashboardController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+// Route::view('/view', '');
 
 Route::group(['namespace' => 'App\Http\Controllers'], function () {
     /**
@@ -27,8 +28,8 @@ Route::group(['namespace' => 'App\Http\Controllers'], function () {
     //     /**
     //      * Register Routes
     //      */
-        // Route::get('/register', 'RegisterController@show')->name('register.show');
-        // Route::post('/register', 'RegisterController@register')->name('register.perform');
+    // Route::get('/register', 'RegisterController@show')->name('register.show');
+    // Route::post('/register', 'RegisterController@register')->name('register.perform');
 
     //     /**
     //      * Login Routes
@@ -44,4 +45,9 @@ Route::group(['middleware' => ['auth']], function () {
     Route::get('/logout', [LogoutController::class, 'perform'])->name('logout.perform');
 
     Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard.index');
+    Route::delete('/post/image/{post}', [PostController::class, 'deleteImage'])->name('post.image.delete');
+    Route::put('post/restore/{post}', [PostController::class, 'restore'])->name('post.restore');
+    Route::get('post/soft-deleted', [PostController::class, 'indexSoftDeleted'])->name('data-softdeleted.index');
+    Route::delete('/deletePermanently/{post}', [PostController::class, 'deletePermanently'])->name('posts.delete-permanently');
+    Route::resource('post', PostController::class);
 });
