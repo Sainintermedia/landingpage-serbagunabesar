@@ -37,11 +37,11 @@
                         <a href="{{ route('dashboard.index') }}">Dashboard</a>
                     </li>
                 @endauth
-                <li>
+                {{--  <li>
                     @guest
                         <a href="{{ route('login.perform') }}">Login</a>
                     @endguest
-                </li>
+                </li>  --}}
             </ul>
         </nav><!-- .navbar -->
 

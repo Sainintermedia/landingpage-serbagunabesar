@@ -10,6 +10,9 @@
             <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
             <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
             <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+            @guest
+                <a href="{{ route('login.perform') }}" class="linkedin"><i class="bi bi-lock"></i></i></a>
+            @endguest
         </div>
     </div>
 </section>
