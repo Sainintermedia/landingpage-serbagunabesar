@@ -4,7 +4,7 @@
         <div class="row gy-4">
             <div class="col-lg-5 col-md-12 footer-info">
                 <a href="index.html" class="logo d-flex align-items-center">
-                    <span>SerbagunaBisa</span>
+                    <span>SerbagunaBesar</span>
                 </a>
                 <p>Sebuah perusahaan pengelolaan limbah yang berdedikasi untuk mengurangi dampak negatif limbah terhadap
                     lingkungan. Misi utama perusahaan ini adalah untuk menyediakan solusi terpadu dalam pengelolaan
@@ -42,11 +42,12 @@
             <div class="col-lg-3 col-md-12 footer-contact text-md-start text-center">
                 <h4>Contact Us</h4>
                 <p>
-                    A108 Adam Street <br>
-                    New York, NY 535022<br>
+                    KP. KAWIDARAN, Desa/Kelurahan Cibadak, <br>
+                    Kec. Cikupa, Kab.
+                    Tangerang, Provinsi Banten,<br>
                     United States <br><br>
-                    <strong>Phone:</strong> +1 5589 55488 55<br>
-                    <strong>Email:</strong> info@example.com<br>
+                    <strong>Phone:</strong>+62 852-9568-8989<br>
+                    <strong>Email:</strong> cvserbagunabesar@gmail.com<br>
                 </p>
 
             </div>
@@ -59,7 +60,7 @@
             &copy; Copyright <strong><span>Impact</span></strong>. All Rights Reserved
         </div>
         <div class="credits">
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            Designed by <a href="https://sainintermedia.com/">Sainintermedia</a>
         </div>
     </div>
 

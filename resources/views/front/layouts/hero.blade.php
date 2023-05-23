@@ -2,7 +2,7 @@
     <div class="position-relative container">
         <div class="row gy-5" data-aos="fade-in">
             <div class="col-lg-6 order-lg-1 d-flex flex-column justify-content-center text-lg-start order-2 text-center">
-                <h2>Selamat datang di <span>SerbagunaBisa</span></h2>
+                <h2>Selamat datang di <span>SerbagunaBesar</span></h2>
                 <p>Sebuah perusahaan pengelolaan limbah yang berdedikasi untuk mengurangi dampak negatif limbah terhadap
                     lingkungan. Misi utama perusahaan ini adalah untuk menyediakan solusi terpadu dalam pengelolaan
                     limbah agar mencapai keberlanjutan dan keberhasilan ekonomi.</p>
@@ -28,7 +28,7 @@
                 <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="icon-box">
                         <div class="icon"><i class="bi bi-easel"></i></div>
-                        <h4 class="title"><a href="" class="stretched-link">Lorem Ipsum</a></h4>
+                        <h4 class="title"><a href="" class="stretched-link">Drum Pelastik</a></h4>
                     </div>
                 </div>
                 <!--End Icon Box -->
@@ -56,6 +56,15 @@
                     </div>
                 </div>
                 <!--End Icon Box -->
+                    <!--End Icon Box -->
+
+                    <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                        <div class="icon-box">
+                            <div class="icon"><i class="bi bi-command"></i></div>
+                            <h4 class="title"><a href="" class="stretched-link">Nemo Enim</a></h4>
+                        </div>
+                    </div>
+                    <!--End Icon Box -->
 
             </div>
         </div>
