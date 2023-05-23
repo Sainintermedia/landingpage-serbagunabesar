@@ -6,8 +6,8 @@
 <meta content="" name="keywords">
 
 <!-- Favicons -->
-<link href="{{ URL::asset('front/img/favicon.png') }}" rel="icon">
-<link href="{{ URL::asset('front/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
+<link href="{{ URL::asset('assets/image/SB.ico') }}" rel="icon">
+<link href="{{ URL::asset('assets/image/SB.ico') }}" rel="apple-touch-icon">
 
 <!-- Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
