@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\LogoutController;
+use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\DashboardController;
 
 /*
@@ -16,7 +17,7 @@ use App\Http\Controllers\DashboardController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-// Route::view('/view', '');
+Route::view('/view', 'landing.index');
 
 Route::group(['namespace' => 'App\Http\Controllers'], function () {
     /**
@@ -45,9 +46,17 @@ Route::group(['middleware' => ['auth']], function () {
     Route::get('/logout', [LogoutController::class, 'perform'])->name('logout.perform');
 
     Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard.index');
+
+
+    // START POST //
     Route::delete('/post/image/{post}', [PostController::class, 'deleteImage'])->name('post.image.delete');
     Route::put('post/restore/{post}', [PostController::class, 'restore'])->name('post.restore');
     Route::get('post/soft-deleted', [PostController::class, 'indexSoftDeleted'])->name('data-softdeleted.index');
     Route::delete('/deletePermanently/{post}', [PostController::class, 'deletePermanently'])->name('posts.delete-permanently');
     Route::resource('post', PostController::class);
+    // END POST //
+
+    // START CATEGORY //
+    Route::resource('category', CategoryController::class);
+    // END CATEGORY //
 });
