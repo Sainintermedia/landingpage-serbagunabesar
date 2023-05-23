@@ -1,7 +1,7 @@
 <header id="header" class="header d-flex align-items-center">
 
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-        <a href="index.html" class="logo d-flex align-items-center">
+        <a href="{{ route('home.index') }}" class="logo d-flex align-items-center">
             <h1>SerbagunaBisa<span>.</span></h1>
         </a>
         <nav id="navbar" class="navbar">

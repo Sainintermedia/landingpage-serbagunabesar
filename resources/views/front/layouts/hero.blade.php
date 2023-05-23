@@ -13,10 +13,11 @@
                             class="bi bi-play-circle"></i><span>Watch Video</span></a>  --}}
                 </div>
             </div>
-            <div class="col-lg-6 order-lg-2 order-1">
-                <img src="{{ URL::asset('front/img/hero-img.svg') }}" class="img-fluid" alt=""
-                    data-aos="zoom-out" data-aos-delay="100">
+            <div class="col-lg-6 order-lg-2 d-flex justify-content-center align-items-center order-1">
+                <img src="{{ URL::asset('assets/image/SB.ico') }}" class="img-fluid" alt="" data-aos="zoom-out"
+                    data-aos-delay="100">
             </div>
+
         </div>
     </div>
 
