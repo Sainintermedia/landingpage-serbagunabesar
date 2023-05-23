@@ -2,9 +2,11 @@
     <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-            <h2>Portfolio</h2>
-            <p>Quam sed id excepturi ccusantium dolorem ut quis dolores nisi llum nostrum enim velit qui ut et
-                autem uia reprehenderit sunt deleniti</p>
+            <h2>Kategori Produk</h2>
+            <p>Pengelolaan limbah yang efisien dan ramah lingkungan menjadi kebutuhan penting di era saat ini.
+                SerbagunaBisa hadir sebagai solusi inovatif dalam kategori Produk Pengelolaan Limbah Terpadu. Dengan
+                mengintegrasikan teknologi modern dan praktek-praktek berkelanjutan, SerbagunaBisa memungkinkan
+                perusahaan dan komunitas untuk mengoptimalkan pengelolaan limbah mereka.</p>
         </div>
 
         <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry"

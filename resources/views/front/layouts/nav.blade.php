@@ -2,13 +2,13 @@
 
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
         <a href="index.html" class="logo d-flex align-items-center">
-            <h1>Impact<span>.</span></h1>
+            <h1>SerbagunaBisa<span>.</span></h1>
         </a>
         <nav id="navbar" class="navbar">
             <ul>
                 <li><a href="{{ route('home.index') }}">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#services">Layanan</a></li>
+                <li><a href="#portfolio">Produk</a></li>
                 <li><a href="{{ route('home.blog') }}">Blog</a></li>
                 <li class="dropdown"><a href="#"><span>Drop Down</span> <i
                             class="bi bi-chevron-down dropdown-indicator"></i></a>

@@ -2,14 +2,15 @@
     <div class="position-relative container">
         <div class="row gy-5" data-aos="fade-in">
             <div class="col-lg-6 order-lg-1 d-flex flex-column justify-content-center text-lg-start order-2 text-center">
-                <h2>Welcome to <span>Impact</span></h2>
-                <p>Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque
-                    eum quaerat.</p>
+                <h2>Selamat datang di <span>SerbagunaBisa</span></h2>
+                <p>Sebuah perusahaan pengelolaan limbah yang berdedikasi untuk mengurangi dampak negatif limbah terhadap
+                    lingkungan. Misi utama perusahaan ini adalah untuk menyediakan solusi terpadu dalam pengelolaan
+                    limbah agar mencapai keberlanjutan dan keberhasilan ekonomi.</p>
                 <div class="d-flex justify-content-center justify-content-lg-start">
-                    <a href="#about" class="btn-get-started">Get Started</a>
-                    <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
+                    <a href="#services" class="btn-get-started">Mulai</a>
+                    {{--  <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
                         class="glightbox btn-watch-video d-flex align-items-center"><i
-                            class="bi bi-play-circle"></i><span>Watch Video</span></a>
+                            class="bi bi-play-circle"></i><span>Watch Video</span></a>  --}}
                 </div>
             </div>
             <div class="col-lg-6 order-lg-2 order-1">

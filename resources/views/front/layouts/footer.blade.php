@@ -4,10 +4,11 @@
         <div class="row gy-4">
             <div class="col-lg-5 col-md-12 footer-info">
                 <a href="index.html" class="logo d-flex align-items-center">
-                    <span>Impact</span>
+                    <span>SerbagunaBisa</span>
                 </a>
-                <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita
-                    valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+                <p>Sebuah perusahaan pengelolaan limbah yang berdedikasi untuk mengurangi dampak negatif limbah terhadap
+                    lingkungan. Misi utama perusahaan ini adalah untuk menyediakan solusi terpadu dalam pengelolaan
+                    limbah agar mencapai keberlanjutan dan keberhasilan ekonomi.</p>
                 <div class="social-links d-flex mt-4">
                     <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
                     <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
