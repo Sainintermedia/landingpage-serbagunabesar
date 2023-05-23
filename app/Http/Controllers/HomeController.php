@@ -9,6 +9,10 @@ class HomeController extends Controller
     public function index()
     {
         return view('front.index');
-        // return view('front.layouts.base');
+    }
+
+    public function blog()
+    {
+        return view('front.content.blog');
     }
 }

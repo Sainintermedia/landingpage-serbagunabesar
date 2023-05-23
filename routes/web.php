@@ -24,6 +24,7 @@ Route::group(['namespace' => 'App\Http\Controllers'], function () {
      * Home Routes
      */
     Route::get('/', 'HomeController@index')->name('home.index');
+    Route::get('/blog', 'HomeController@blog')->name('home.blog');
 
     // Route::group(['middleware' => ['guest']], function () {
     //     /**
