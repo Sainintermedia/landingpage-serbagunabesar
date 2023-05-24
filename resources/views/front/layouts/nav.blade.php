@@ -2,7 +2,7 @@
 
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
         <a href="{{ route('home.index') }}" class="logo d-flex align-items-center">
-            <h1>SerbagunaBisa<span>.</span></h1>
+            <h1>SerbagunaBesar<span>.</span></h1>
         </a>
         <nav id="navbar" class="navbar">
             <ul>

@@ -2,7 +2,7 @@
     <div class="position-relative container">
         <div class="row gy-5" data-aos="fade-in">
             <div class="col-lg-6 order-lg-1 d-flex flex-column justify-content-center text-lg-start order-2 text-center">
-                <h2>Selamat datang di <span>SerbagunaBisa</span></h2>
+                <h2>Selamat datang di <span>SerbagunaBesar</span></h2>
                 <p>Sebuah perusahaan pengelolaan limbah yang berdedikasi untuk mengurangi dampak negatif limbah terhadap
                     lingkungan. Misi utama perusahaan ini adalah untuk menyediakan solusi terpadu dalam pengelolaan
                     limbah agar mencapai keberlanjutan dan keberhasilan ekonomi.</p>
