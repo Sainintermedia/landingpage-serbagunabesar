@@ -8,6 +8,7 @@ use App\Models\PostImage;
 use Illuminate\Http\Request;
 use App\Models\ClickToAction;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Storage;
 
 class PostController extends Controller
@@ -39,7 +40,7 @@ class PostController extends Controller
         $post->title = $request->title;
         $post->description = $request->description;
         $post->cta_id = $request->cta_id;
-        $post->user_id = $request->user_id;
+        $post->user_id = \Auth::user()->id;
         $post->save();
 
         if ($request->hasFile('image')) {
