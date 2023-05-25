@@ -18,7 +18,7 @@
             </div>
 
             <div class="col-lg-2 col-6 footer-links">
-                <h4>Useful Links</h4>
+                <h4>Tautan Berguna</h4>
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About us</a></li>
@@ -29,7 +29,7 @@
             </div>
 
             <div class="col-lg-2 col-6 footer-links">
-                <h4>Our Services</h4>
+                <h4>Layanan Kami</h4>
                 <ul>
                     <li><a href="#services">Pengumpulan dan Pemilahan Limbah</a></li>
                     <li><a href="#services">Pengolahan dan Pemusnahan Limbah</a></li>
