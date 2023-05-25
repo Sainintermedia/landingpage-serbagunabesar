@@ -3,7 +3,6 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Illuminate\Support\Facades\Storage;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -14,13 +13,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-
-        if ($this->app->environment('local')) {
-            $this->app->register(StorageServiceProvider::class);
-            $this->app->bind('path.public', function () {
-                return base_path('public_html/serbagunabesar/public'); // Ganti dengan path direktori public Anda
-            });
-        }
 
     }
 
