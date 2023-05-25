@@ -41,9 +41,9 @@
             </div>
 
             <div class="col-lg-3 col-md-12 footer-contact text-md-start text-center">
-                <h4>Contact Us</h4>
+                <h4>Hubungi Kami</h4>
                 <p>
-                    KP. KAWIDARAN, Desa/Kelurahan Cibadak, <br>
+                    Kp. Kawidaran, Desa/Kelurahan Cibadak, <br>
                     Kec. Cikupa, Kab.
                     Tangerang, Provinsi Banten,<br>
                     Indonesia <br><br>
