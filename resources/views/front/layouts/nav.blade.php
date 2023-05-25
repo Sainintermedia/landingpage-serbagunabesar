@@ -10,23 +10,12 @@
                 <li><a href="#services">Layanan</a></li>
                 <li><a href="#portfolio">Produk</a></li>
                 <li><a href="{{ route('home.blog') }}">Blog</a></li>
-                <li class="dropdown"><a href="#"><span>Drop Down</span> <i
+                <li class="dropdown"><a href="#"><span>Kategori</span> <i
                             class="bi bi-chevron-down dropdown-indicator"></i></a>
                     <ul>
-                        <li><a href="#">Drop Down 1</a></li>
-                        <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i
-                                    class="bi bi-chevron-down dropdown-indicator"></i></a>
-                            <ul>
-                                <li><a href="#">Deep Drop Down 1</a></li>
-                                <li><a href="#">Deep Drop Down 2</a></li>
-                                <li><a href="#">Deep Drop Down 3</a></li>
-                                <li><a href="#">Deep Drop Down 4</a></li>
-                                <li><a href="#">Deep Drop Down 5</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Drop Down 2</a></li>
-                        <li><a href="#">Drop Down 3</a></li>
-                        <li><a href="#">Drop Down 4</a></li>
+                        @foreach ($categories as $category)
+                            <li><a href="#">{{ $category }}</a></li>
+                        @endforeach
                     </ul>
                 </li>
                 @auth
@@ -37,11 +26,6 @@
                         <a href="{{ route('dashboard.index') }}">Dashboard</a>
                     </li>
                 @endauth
-                {{--  <li>
-                    @guest
-                        <a href="{{ route('login.perform') }}">Login</a>
-                    @endguest
-                </li>  --}}
             </ul>
         </nav><!-- .navbar -->
 
