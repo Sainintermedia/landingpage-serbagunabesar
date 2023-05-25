@@ -31,11 +31,12 @@
             <div class="col-lg-2 col-6 footer-links">
                 <h4>Our Services</h4>
                 <ul>
-                    <li><a href="#">Web Design</a></li>
-                    <li><a href="#">Web Development</a></li>
-                    <li><a href="#">Product Management</a></li>
-                    <li><a href="#">Marketing</a></li>
-                    <li><a href="#">Graphic Design</a></li>
+                    <li><a href="#services">Pengumpulan dan Pemilahan Limbah</a></li>
+                    <li><a href="#services">Pengolahan dan Pemusnahan Limbah</a></li>
+                    <li><a href="#services">Konsultasi dan Audit Lingkungan</a></li>
+                    <li><a href="#services">Pengurangan Limbah dan Daur Ulang</a></li>
+                    <li><a href="#services">Pelatihan dan Pendidikan</a></li>
+                    <li><a href="#services">Pelaporan dan Compliance</a></li>
                 </ul>
             </div>
 
@@ -45,7 +46,7 @@
                     KP. KAWIDARAN, Desa/Kelurahan Cibadak, <br>
                     Kec. Cikupa, Kab.
                     Tangerang, Provinsi Banten,<br>
-                    United States <br><br>
+                    Indonesia <br><br>
                     <strong>Phone:</strong>+62 852-9568-8989<br>
                     <strong>Email:</strong> cvserbagunabesar@gmail.com<br>
                 </p>

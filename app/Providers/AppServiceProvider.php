@@ -14,6 +14,15 @@ class AppServiceProvider extends ServiceProvider
     public function register()
     {
 
+
+        if ($this->app->environment('local')) {
+            $this->app->register(StorageServiceProvider::class);
+            $this->app->bind('path.public', function () {
+                return base_path('public_html/serbagunabesar/storage'); // Ganti dengan path direktori public Anda
+            });
+        }
+
+
     }
 
     /**
